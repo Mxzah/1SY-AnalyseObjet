@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+ 
+actor Client
+
+ 
+rectangle "Pompe essence" {
+    usecase "Servir de l'essence" as UC1
+
+}
+ 
+Client --> UC1
+ 
+@enduml
