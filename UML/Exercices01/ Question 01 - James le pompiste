@@ -1,6 +1,5 @@
-Considérons une station-service de distribution d'essence. Les clients se servent de l'essence et le camionneur-pompiste remplit les cuves.
-
 Le client se sert de l'essence de la façon suivante : il prend un pistolet accroché à une pompe et appuie sur la gâchette pour prendre de l'essence. Qui est l'acteur du système ? Est-ce le client, le pistolet ou la gâchette et pourquoi ?
+Réponse: C'est le client, car c'est lui qui intéragit avec le système de pompe à essence.
+
 James, dont le métier est pompiste, peut se servir de l'essence pour sa voiture. Pour modéliser cette activité de James, doit-on définir un nouvel acteur ? Comment modélise-t-on ça en PlantUML ?
-Lorsque James vient avec son camion-citerne pour remplir les réservoirs des pompes, est-il considéré comme un nouvel acteur ? Comment modélise-t-on cela ?
-Certains pompistes sont aussi qualifiés pour opérer des opérations de maintenance en plus des opérations habituelles des pompistes telles que le remplissage des réservoirs. Ils sont donc réparateurs en plus d'être pompistes. Comment modéliser cela ?
+Réponse: Non, car James effectue les mêmes actions que le client.
