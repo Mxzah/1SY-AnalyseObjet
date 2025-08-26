@@ -1,0 +1,17 @@
+@startuml
+Object Noeud {
+  nom : String
+}
+
+Object Fichier {
+  contenu : byte[]
+}
+
+Object Repertoire {
+}
+
+Noeud <|-- Fichier
+Noeud <|-- Repertoire
+
+Repertoire *-- Noeud
+@enduml
