@@ -1,0 +1,16 @@
+@startuml
+object Personne {
+    nom
+} 
+object Appartement {
+    adresse
+}
+object Bail {
+    date
+    renouveller()
+}
+
+Personne "1..5" -- "1.." Appartement : louer > 
+(Personne, Appartement) -- "0.." Bail
+
+@enduml
