@@ -1,0 +1,21 @@
+@startuml
+
+Object groupe{
+    nom
+    alias
+}
+Object membre{
+    nom
+    alias
+}
+Object amities{
+    DateAnniversaire
+    CelebrerAnniversaire()
+}
+
+
+membre "1" - "1..5000" membre
+(membre, membre) -- amities
+
+groupe "1" -o "3..*" membre : contient >
+
