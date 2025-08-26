@@ -1,0 +1,8 @@
+@startuml
+object Livre
+object Recette
+object Ingredients
+
+Recette o-- "2..*" Ingredients
+Livre o-- "50..75" Recette
+@enduml
